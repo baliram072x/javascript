@@ -13,9 +13,9 @@ this faulty calculator does followng:
 */
 let random = Math.random()
 
-let a = prompt1("Enter First Number")
-let b = prompt2("Enter Second Number")
-let c = prompt3("Enter Operation")
+let a = prompt("Enter First Number")
+let b = prompt("Enter Second Number")
+let c = prompt("Enter Operation")
 
 let obj = {
     "+":"-",
