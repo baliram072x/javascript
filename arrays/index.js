@@ -12,6 +12,7 @@
 // console.log(arr.join(" and "))
 
 
+
 // //concat
 // let a1 = [1, 2, 3]
 // let a2 = [4, 5, 6]
@@ -64,11 +65,11 @@ let a = [1, 93, 5, 6, 88]
 // map filter
 
 let arr = [1, 3, 5, 7, 11, 13]
-// let newarr =[]
-// for (let index = 0; index < arr.length; index++) {
-//     const element = arr[index];
-//     newarr.push(element**2)
-// }
+let newarr3 =[]
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    newarr3.push(element**2)
+}
 
 let newarr = arr.map((e) => {
     return e ** 2
