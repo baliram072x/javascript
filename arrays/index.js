@@ -24,14 +24,15 @@
 // // console.log(a.sort[1, 4, 6])
 
 //                  //splice
-// const numbes=[1,2,3,4,5]
-// console.log(numbes.splice(1))
+const numbers = [1, 2, 3, 4, 5]
+numbers.splice(0,2)
+console.log(numbers)
 
 //                   //slice
 // const num =[1,2,3,4]
 // console.log(num.slice(2))
 
-let a = [1, 93, 5, 6, 88]
+// let a = [1, 93, 5, 6, 88]
 
 
 // for (let index = 0; index < a.length; index++) {
@@ -64,34 +65,34 @@ let a = [1, 93, 5, 6, 88]
 
 // map filter
 
-let arr = [1, 3, 5, 7, 11, 13]
-let newarr3 =[]
-for (let index = 0; index < arr.length; index++) {
-    const element = arr[index];
-    newarr3.push(element**2)
-}
+// let arr = [1, 3, 5, 7, 11, 13]
+// let newarr3 =[]
+// for (let index = 0; index < arr.length; index++) {
+//     const element = arr[index];
+//     newarr3.push(element**2)
+// }
 
-let newarr = arr.map((e) => {
-    return e ** 2
-})
-console.log(newarr)
-
-
-console.log(newarr)
-const greaterthenseven = (e) => {
-    if (e > 7) {
-        return true
-    }
-    return false
-}
-
-console.log(arr.filter(greaterthenseven))
-
-let arr2 = [1, 2, 3, 4, 5, 6]
+// let newarr = arr.map((e) => {
+//     return e ** 2
+// })
+// console.log(newarr)
 
 
-const red = (a, b) => {
-    return a * b
-}
+// console.log(newarr)
+// const greaterthenseven = (e) => {
+//     if (e > 7) {
+//         return true
+//     }
+//     return false
+// }
 
-console.log(arr2.reduce(red))
+// console.log(arr.filter(greaterthenseven))
+
+// let arr2 = [1, 2, 3, 4, 5, 6]
+
+
+// const red = (a, b) => {
+//     return a * b
+// }
+
+// console.log(arr2.reduce(red))
